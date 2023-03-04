@@ -1,0 +1,129 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gajraj+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: "Gajraj One", sans-serif;
+  font-size: 48px;
+  margin: 20px;
+
+ 
+
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 8%, rgba(215,215,215,1) 38%, rgba(242,242,242,1) 43%, rgba(255,255,255,1) 96%, rgba(222,222,222,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+ 
+text-shadow: 
+11px 11px 12px #111, 
+
+
+}
+
+.header { 
+   line-height: 1;
+ 
+    
+    &--shadow {
+      &::before {
+        color: #000;
+        content: attr(data-text);
+        margin-top: 0.875rem;
+        opacity: 0.7;
+        position: absolute;
+        transform: perspective(200px) rotateX(40deg) scale(0.83);
+        z-index: -1;
+      }
+    }}
+
+h2 {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+a {
+
+  border: 1px solid #333;
+  color: white;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+
+
+}
+
+a:hover{background-color: #ddd; color: #333;}
+
+.project-card {
+  display: inline-block;
+  border: 1px solid #111;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: #444;
+}
+
+.project-card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.project-thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-description,
+.project-language,
+.project-link {
+  font-family: "Abel", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.project-language{color:#777;}
+
+.project-link {
+  font-family: "Press Start 2P", sans-serif;
+  display: block;
+  text-align: right;
+  font-size: 12px;
+}
+
+footer{margin:40px; color:#666;}
+
+@media screen and (max-width: 768px) {
+  .project-card {
+    width: 95%;
+  }
+}
+
