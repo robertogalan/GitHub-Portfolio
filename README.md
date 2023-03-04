@@ -21,7 +21,7 @@ To use this template, follow these steps:
 
 ## Credits
 
-This template was created by Roberto Galan with ChatGPT training wheels. (https://github.com/robertogalan)
+This template was created by Roberto Galan with ChatGPT crutches in a hot humid summer afternoon of March 3 2023 for https://www.crotopro.com/ 
 
 ## License
 
