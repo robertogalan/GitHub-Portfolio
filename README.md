@@ -7,9 +7,10 @@ This is a simple website template that displays a feed of your latest Github pro
 
 To use this template, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/github-projects-feed-template.git`
-2. Open the `index.html` file in your web browser to view the template.
-3. Customize the template by editing the `app.js` file to display your own Github projects, replace the githubUsername variable with your GitHub username.
+1. Clone the repository: `git clone https://github.com/robertogalan/GitHub-Portfolio.git`
+2. France
+3. Open the `index.html` file in your web browser to view the template.
+4. Customize the template by editing the `app.js` file to display your own Github projects, replace the githubUsername variable with your GitHub username.
 
 ## Features
 
